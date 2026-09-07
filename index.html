@@ -1,37 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
+    <title>Yume RPG | Devlog</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    
-<nav class="navbar">
+
+<body id="top">
+
+    <nav class="navbar">
         <div class="nav-container">
             <a href="#" class="nav-logo">Yume RPG</a>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
                 <li><a href="#screenshots">Screenshots</a></li>
-                <li><a href="#art">Art</a></li>
+                <li><a href="art.html">Art</a></li>
                 <li><a href="#devlog">Devlog</a></li>
                 <li><a href="https://github.com/Memuyy" target="_blank">GitHub</a></li>
             </ul>
         </div>
     </nav>
+    <main class="container">
+        <section id="devlog" class="section">
+            <h2>Development Logs</h2>
 
-<main class="container">
+            <a href="devlog-1.html" class="devlog-card-link">
+                <div class="devlog-card">
 
-        
-        <section id="about" class="section">
-            <h2>About the Project</h2>
-            <p>Personal Devlog site</p>
+                    <img src="images/devlog-1-thumb.png" alt="Dev Log 1 Preview" class="devlog-thumb">
+
+                    <div class="devlog-body">
+                        <span class="date">September 2026</span>
+                        <h3>Dev Log 1: Starting the project</h3>
+                        <p>Established the baseline repository structure, mapped out the narrative protagonist concept,
+                            and laid out the initial design for the turn-based combat framework...</p>
+                    </div>
                 </div>
-            </div>
+            </a>
         </section>
 
-        <section class="section">
+
+        <section id="screenshots" class="section">
             <h2>Visual Progress</h2>
             <div class="gallery-grid">
                 <div class="gallery-placeholder">
@@ -42,11 +53,17 @@
                 </div>
             </div>
         </section>
-<footer>
-    <div class="container footer-container">
-        <p>footer pog</p>
-        <a href="#about" class="back-to-top">Back to top &uarr;</a>
-    </div>
-</footer>
+
+    </main>
+
+    <footer>
+        <div class="container footer-container">
+            <p>footer pog</p>
+            <a href="#top" class="back-to-top">Back to top &uarr;</a>
+        </div>
+    </footer>
+
+
 </body>
+
 </html>
