@@ -427,3 +427,50 @@ footer p {
     margin-top: 8px;
     font-style: italic;
 }
+/* mobile resp */
+@media (max-width: 600px) {
+    .hero h1 {
+        font-size: 2.2rem; 
+    }
+
+    .tagline {
+        font-size: 1rem;
+    }
+
+  
+    .nav-container {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
+
+    .nav-links {
+        gap: 16px;
+        flex-wrap: wrap; 
+    }
+
+
+    .gallery-grid,
+    .art-grid,
+    .features-grid,
+    .tech-grid {
+        grid-template-columns: 1fr; 
+    }
+
+
+    .art-img,
+    .art-placeholder {
+        height: 200px; 
+    }
+
+
+    .lightbox-content {
+        width: 95%;
+        padding: 16px;
+    }
+
+    .lightbox-close {
+        top: 12px;
+        right: 16px;
+    }
+}
